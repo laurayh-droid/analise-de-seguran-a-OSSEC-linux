@@ -1,0 +1,15 @@
+# Diário de Bordo: Estabilização do OSSEC
+
+## Introdução
+Esta seção documenta o desafio encontrado durante o uso do OSSEC HIDS em um ambiente de laboratório com recursos limitados, e as soluções aplicadas para superar cada obstáculo.
+
+---
+
+## Desafio : Instabilidade dos processos de análise dos logs
+
+* **Problema:** O `ossec-syscheckd` (verificação de integridade) e o `ossec-analysisd` (análise de logs), paravam de funcionar com frequência.
+* **Diagnóstico:** A causa provável é a limitação de recursos (memória ram), no começo até pensei em usar o wazuh para este lab, mas por ter uma arquitetura de múltiplos serviçoes acabou que não funcionou bem. Então decidi usar um SIEM mais leve como o OSSEC(focado em um trabalho mais especifico), apesar das limitações que poderiam ter.O sistema operacional também pode estar encerrando processos do OSSEC para evitar instabilidade geral. Os erros de `Queue ... Connection refused` confirmaram que o processo de análise (`analysisd`) era o principal ponto de falha
+* **Solução:** Para o propósito deste laboratório, a solução adotada é verificar o status dos serviços com `ossec-control status` e, se necessário, reiniciá-los com `ossec-control restart` antes de cada simulação de ataque. Isso para garantir que todas as verificações funcionem.
+
+## Aprendizados
+Este Projeto reforçou a importância da leitura atenta de logs, da compreensão do processo de compilação de software em Linux e de como as limitações de hardware impactam o funcionamento de aplicações de segurança.
