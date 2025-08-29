@@ -26,7 +26,7 @@ O principal objetivo deste projeto é demonstrar de forma prática a capacidade 
 
 Abaixo está a lista dos laboratórios documentados neste repositório. Cada pasta contém um `README.md` com a análise detalhada da ameaça, a evidência coletada e o plano de resposta sugerido.
 
-1.  **[Cenário 1: Tentativa de Força Bruta](/1_cenario_forca_bruta/)**
+1.  **[Cenário 1: Tentativa de Força Bruta](./1_cenário_força_bruta/)**
     * *Simulação e detecção de falhas consecutivas de autenticação ao tentar escalar privilégios com `sudo`.*
 
 2.  **[Cenário 2: Alteração de Integridade de Arquivo](./2_cenario_alteracao_integridade/)**
