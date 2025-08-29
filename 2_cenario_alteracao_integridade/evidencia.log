@@ -1,0 +1,13 @@
+### Evidência
+O módulo `syscheck` do OSSEC detectou uma alteração no arquivo `/etc/hosts`. O alerta abaixo mostra as mudanças nos checksums (MD5, SHA1) e no tamanho do arquivo, confirmando que o conteúdo foi modificado.
+
+
+** Alert 1756494562.13176: mail  - ossec,syscheck,
+2025 Aug 29 16:09:22 usuario-Inspiron-3501->syscheck
+Rule: 551 (level 7) -> 'Integrity checksum changed again (2nd time).'
+Integrity checksum changed for: '/etc/hosts'
+Size changed from '263' to '302'
+Old md5sum was: 'd9e757d9af163255278e23f89595c06e'
+New md5sum is : 'aba4aca56ba5aa78c3940f2e1b5e7e35'
+Old sha1sum was: 'ece9c8e6a9ad26cfc35dc9fc6903edd082a16aff'
+New sha1sum is : '8a8f24c7f720aae934711cdb968265915923c2fe'
