@@ -26,7 +26,7 @@ O principal objetivo deste projeto é demonstrar de forma prática a capacidade 
 
 Abaixo está a lista dos laboratórios documentados neste repositório. Cada pasta contém um `README.md` com a análise detalhada da ameaça, a evidência coletada e o plano de resposta sugerido.
 
-1.  **[Cenário 1: Tentativa de Força Bruta](./1_cenario_forca_bruta/)**
+1.  **[Cenário 1: Tentativa de Força Bruta](/1_cenario_forca_bruta/)**
     * *Simulação e detecção de falhas consecutivas de autenticação ao tentar escalar privilégios com `sudo`.*
 
 2.  **[Cenário 2: Alteração de Integridade de Arquivo](./2_cenario_alteracao_integridade/)**
@@ -55,8 +55,8 @@ Para recriar este ambiente e executar os testes, você precisará de:
 
 ## 👨‍💻 Autor
 
-* **[Seu Nome Completo]**
-* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seu-perfil/)
+* **Laura Sousa e Silva**
+* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/laurasousaesilva)
 * [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
 
 ---
