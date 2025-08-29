@@ -1,1 +1,6 @@
+### Evidência (Log Completo do OSSEC)
 
+** Alert 1756488457.8120: mail  - syslog,sudo
+2025 Aug 29 14:27:37 usuario-Inspiron-3501->/var/log/auth.log
+Rule: 5404 (level 10) -> 'Three failed attempts to run sudo'
+2025-08-29T14:27:36.133167-03:00 usuario-Inspiron-3501 sudo:  usuario : 3 incorrect password attempts ; TTY=pts/2 ; PWD=/home/usuario ; USER=root ; COMMAND=/usr/bin/apt
