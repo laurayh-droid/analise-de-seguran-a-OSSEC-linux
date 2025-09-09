@@ -1,0 +1,9 @@
+O OSSEC detectou uma modificação no arquivo `/etc/passwd` e, através de suas regras, identificou especificamente a adição de um novo usuário chamado `backdoor3`.
+
+///log
+
+** Alert 1757439455.16368: mail  - syslog,adduser
+2025 Sep 09 14:37:35 usuario-Inspiron-3501->/var/log/auth.log
+Rule: 5902 (level 8) -> 'New user added to the system'
+2025-09-09T14:37:35.542618-03:00 usuario-Inspiron-3501 useradd[3748]: new user: name=backdoor3, UID=1006, GID=1006, home=/home/backdoor3, shell=/bin/bash, from=/dev/pts/3
+
